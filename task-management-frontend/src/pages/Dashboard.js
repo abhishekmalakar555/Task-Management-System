@@ -16,12 +16,6 @@ function Dashboard() {
     return decoded?.role;
   }, []);
 
-  const userName = useMemo(() => {
-    const token = localStorage.getItem("token");
-    const decoded = token ? JSON.parse(atob(token.split(".")[1])) : null;
-    return decoded?.name;
-  }, []);
-
   useEffect(() => {
     fetchTasks();
   }, []);
