@@ -1,0 +1,18 @@
+# Node
+task-management-frontend/node_modules/
+task-management-frontend/build/
+
+# Maven
+task-management-backend/target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
