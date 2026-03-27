@@ -35,15 +35,17 @@ A full-stack Task Management application built with Spring Boot, React and MySQL
 - Passwords encrypted using BCrypt
 
 ### Admin Mode
+- View all users in the system
+- Create new users in the system
 - View all tasks in the system
 - Create new tasks and assign them to users
-- Edit any task (title, description, status, priority, due date, assigned user)
+- Edit any task (title, description, status, priority, assigned user)
 - Delete any task
 
 ### User Mode
+- Create new tasks
 - View only tasks assigned to them and unassigned tasks
 - Update the status of tasks assigned to them (PENDING / IN_PROGRESS / COMPLETED)
-- Cannot edit or delete tasks
 
 ### General
 - Filter tasks by status (PENDING, IN_PROGRESS, COMPLETED)
